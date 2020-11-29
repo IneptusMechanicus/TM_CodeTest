@@ -10,5 +10,5 @@ DB_NAME - Name of the database
 */
 define('DB_HOST', 'localhost');
 define('DB_USER', 'ivo');
-define('DB_PASS', 'jackal9806');
+define('DB_PASS', '1234pass');
 define('DB_NAME', 'codetest');
