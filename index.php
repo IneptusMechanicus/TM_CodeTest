@@ -6,6 +6,7 @@
   </head>
   <body>
     <?php
+      session_start();
       require_once("app/controllers/library.php");
 
       $app = new LibraryController();
