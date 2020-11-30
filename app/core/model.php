@@ -4,10 +4,14 @@
 // Used primarily to setup PostgreSQL database connection
 class Model {
 
-  private $db;
+  protected $db;
 
-  function __construct($connection) {
-    $this->db = $connection;
+  function __construct($host, $dbName, $dbUser, $dbPass) {
+    $this->db = pg_connect('host='.$host.'
+                            port=5432
+                            dbname='.$dbName.'
+                            user='.$dbUser.'
+                            password='.$dbPass);
   }
 
 }

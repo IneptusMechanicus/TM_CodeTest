@@ -30,3 +30,7 @@ body {
 #queryForm {
   text-align:center;
 }
+
+#contentSection {
+  justify-content: center;
+}
