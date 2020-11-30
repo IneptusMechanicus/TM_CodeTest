@@ -1,4 +1,5 @@
 <?php
+require_once("app/core/model.php");
 
 //Library Model for interacting with the Library Database
 class LibraryModel extends Model {
@@ -8,7 +9,7 @@ class LibraryModel extends Model {
     print_r("Adding...");
   }
 
-  //Method for searching the database by author for the front end
+  //Method for searching the database by author for the front ends
   public function searchByAuthor($author) {
     print_r("Searching...");
   }

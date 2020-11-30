@@ -12,5 +12,3 @@ define('DB_HOST', 'localhost');
 define('DB_USER', 'ivo');
 define('DB_PASS', '1234pass');
 define('DB_NAME', 'codetest');
-
-$_SESSION["DB_CONNECTION"] = pg_connect("host=".$host." port=5432 dbname=".$name." user=".$user." password=".$pass);
